@@ -1,0 +1,15 @@
+const moreThan100 = nums =>
+  nums.map(x => x >= 100);
+
+
+
+
+const formatDate = dates => {
+  return dates.map(x => {
+        //방법 2
+        let eachDates = x.split('-');
+        return a = `${eachDates[0]}년 ${eachDates[1]}월 ${eachDates[2] }일`;
+    
+        //return dates1 = x.slice(0,4)+"년 "+x.slice(5,7)+"월 "+x.slice(8,10)+"일 ";  
+    });
+};
